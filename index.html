@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vexlorn | Roblox Studio Scripts</title>
+    <meta
+      name="description"
+      content="V2.0 – Roblox Studio ready. Ship your game faster with plug-and-play Luau scripts for Roblox Studio."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="topbar">
+      <div class="wrap nav">
+        <div class="brand" aria-label="Vexlorn home">
+          <span class="brand-mark">V</span>
+          <span class="brand-name">Vexlorn</span>
+        </div>
+        <nav class="main-nav" aria-label="Primary navigation">
+          <a href="#scripts">All scripts</a>
+          <a href="#why">Why Vexlorn?</a>
+          <a href="#pricing">Pricing</a>
+        </nav>
+        <div class="nav-actions">
+          <button class="ghost-btn" type="button">Sign in</button>
+          <button class="cart-pill" type="button" aria-label="Cart">
+            Cart (<span id="cart-count">0</span>)
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <header class="hero">
+      <div class="wrap hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">v2.0 – Roblox Studio ready</p>
+          <h1>Ship your game faster with plug-and-play Luau scripts</h1>
+          <p class="subhead">
+            Clean, commented, tested scripts for Roblox Studio. Drop them in, tweak the
+            config, publish. From just £3.
+          </p>
+          <div class="cta-row">
+            <a href="#scripts" class="primary-btn">Browse scripts</a>
+          </div>
+          <div class="price-line">
+            <span class="price-tag">£3 – £14</span>
+            <span class="price-label">price range</span>
+          </div>
+          <div class="meta-row">
+            <span>Instant</span>
+            <span>download</span>
+            <span>Free</span>
+            <span>updates</span>
+          </div>
+        </div>
+
+        <div class="hero-panel" aria-label="Featured script details">
+          <div class="product-card featured">
+            <div class="card-header">
+              <span class="tag">Featured</span>
+              <span class="badge">v2.0</span>
+            </div>
+            <h2>Combat Framework</h2>
+            <p>Roblox-ready melee and ranged combat loop with hit detection, cooldowns and UI hooks.</p>
+            <div class="spec-list">
+              <span>Server-safe</span>
+              <span>Commented</span>
+              <span>Config-driven</span>
+            </div>
+            <div class="product-footer">
+              <div class="price-block">
+                <strong>£14</strong>
+                <small>One-time</small>
+              </div>
+              <button class="small-primary" type="button" data-price="14">Add to cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="scripts" class="catalog">
+        <div class="wrap">
+          <div class="section-heading">
+            <p>All scripts</p>
+            <h2>188 products · hover a card · tap Preview to see the code</h2>
+          </div>
+
+          <div class="product-grid">
+            <article class="product-card">
+              <div class="product-top">
+                <span class="tag">Core</span>
+                <button class="preview-btn" type="button">Preview</button>
+              </div>
+              <h3>Inventory System</h3>
+              <p>Item pickup, drag-and-drop slots, save data, and hotbar sync.</p>
+              <div class="product-footer">
+                <div class="price-block">
+                  <strong>£9</strong>
+                </div>
+                <button class="small-primary" type="button" data-price="9">Add to cart</button>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-top">
+                <span class="tag">Economy</span>
+                <button class="preview-btn" type="button">Preview</button>
+              </div>
+              <h3>Cash Shop</h3>
+              <p>Clean purchase flow, premium currency, and server-authoritative validation.</p>
+              <div class="product-footer">
+                <div class="price-block">
+                  <strong>£12</strong>
+                </div>
+                <button class="small-primary" type="button" data-price="12">Add to cart</button>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-top">
+                <span class="tag">Progression</span>
+                <button class="preview-btn" type="button">Preview</button>
+              </div>
+              <h3>XP & Leveling</h3>
+              <p>Progression board, rank rewards, and admin tools with minimal setup.</p>
+              <div class="product-footer">
+                <div class="price-block">
+                  <strong>£7</strong>
+                </div>
+                <button class="small-primary" type="button" data-price="7">Add to cart</button>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-top">
+                <span class="tag">Combat</span>
+                <button class="preview-btn" type="button">Preview</button>
+              </div>
+              <h3>Weapon Base</h3>
+              <p>Reload, recoil, and hitbox logic wrapped in a reusable script architecture.</p>
+              <div class="product-footer">
+                <div class="price-block">
+                  <strong>£11</strong>
+                </div>
+                <button class="small-primary" type="button" data-price="11">Add to cart</button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="why" class="benefits">
+        <div class="wrap">
+          <div class="section-heading slim">
+            <p>Why Vexlorn?</p>
+          </div>
+
+          <div class="benefit-grid">
+            <div class="benefit-item">
+              <h3>Clean Luau code</h3>
+              <p>Typed where it helps, fully commented.</p>
+            </div>
+            <div class="benefit-item">
+              <h3>Config at the top</h3>
+              <p>Change values without digging through logic.</p>
+            </div>
+            <div class="benefit-item">
+              <h3>Server-safe</h3>
+              <p>Sanity checks on every RemoteEvent.</p>
+            </div>
+            <div class="benefit-item">
+              <h3>Free updates</h3>
+              <p>Re-download whenever a script improves.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <aside class="mini-cart" aria-live="polite">
+      <div class="mini-cart-header">
+        <h3>Your cart</h3>
+        <button type="button" class="close-cart" aria-label="Close cart">Close</button>
+      </div>
+      <div class="mini-cart-body">
+        <div class="cart-total-block">
+          <span>Total</span>
+          <strong>£<span id="cart-total">0</span></strong>
+        </div>
+        <button type="button" class="checkout-btn">Checkout</button>
+      </div>
+    </aside>
+
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <p>© 2026 Vexlorn · Not affiliated with Roblox Corporation</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
